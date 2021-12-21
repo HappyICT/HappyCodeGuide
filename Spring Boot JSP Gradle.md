@@ -1,4 +1,4 @@
-# Spring Boot + JSP + Apache Tiles + Maven
+# Spring Boot + JSP + Apache Tiles + Gradle
 
 ---
 
@@ -27,11 +27,11 @@
 
 ### 1.1 Visual Studio Code에서 Spring Initializr를 이용한 프로젝트 생성
 
-- [Ctrl + Shift + P] > Spring Initializr: Create a Maven Project 로 기본 프로젝트 생성합니다.
+- [Ctrl + Shift + P] > Spring Initializr: Create a Gradle Project 로 기본 프로젝트 생성합니다.
 
   <details><summary>보기</summary>
 
-  - Spring initrializr: create a Maven Project 실행
+  - Spring initrializr: Create a Gradle Project 실행
 
   ![](./images/BootGradle/1.png)
 
@@ -154,7 +154,7 @@
 
   ```properties
   mybatis.configuration.map-underscore-to-camel-case=true
-  mybatis.type-aliases-package=kr.co.happyict.bootJSPMaven.domain
+  mybatis.type-aliases-package=kr.co.happyict.happyBootGradle.domain
   mybatis.mapper-locations=mapper/*.xml
   ```
 
@@ -200,7 +200,7 @@
   <details><summary>보기</summary>
 
   ```java
-  package kr.co.happyict.bootJSPMaven.config;
+  package kr.co.happyict.happyBootGradle.config;
 
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;

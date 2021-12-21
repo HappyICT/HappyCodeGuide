@@ -178,7 +178,7 @@
 
   ```properties
   mybatis.configuration.map-underscore-to-camel-case=true
-  mybatis.type-aliases-package=kr.co.happyict.bootJSPMaven.domain
+  mybatis.type-aliases-package=kr.co.happyict.happyBoot.domain
   mybatis.mapper-locations=mapper/*.xml
   ```
 
@@ -224,7 +224,7 @@
   <details><summary>보기</summary>
 
   ```java
-  package kr.co.happyict.bootJSPMaven.config;
+  package kr.co.happyict.happyBoot.config;
 
   import org.springframework.context.annotation.Bean;
   import org.springframework.context.annotation.Configuration;
