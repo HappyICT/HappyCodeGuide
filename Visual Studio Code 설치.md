@@ -7,7 +7,6 @@
 - https://code.visualstudio.com 에 접속하여 설치파일을 다운로드 합니다.
 
 - [VSCodeUserSetup-x64-1.63.2.exe](https://az764295.vo.msecnd.net/stable/899d46d82c4c95423fb7e10e68eba52050e30ba3/VSCodeUserSetup-x64-1.63.2.exe) [작성일 기준 최신버전]
-
   ![](./images/설치/설치.jpeg)
 
 ### 1.2 Visual Studio Code 설치
