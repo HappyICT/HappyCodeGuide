@@ -1,0 +1,44 @@
+@import url("materialdesignicons.css");
+
+/* HICT-JS Search */
+.m-block-1300 {display: none;}
+
+label.group {position: relative; display: inline-block; vertical-align: middle;}
+input[type="text"], input[type="password"], select, textarea {line-height: 1.5;padding: 0.433em 0.813em;border: 1px solid #d6d8e6;font-size: 0.938em;-webkit-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
+input[type="text"]:focus, input[type="password"]:focus, select:focus, textarea:focus {outline: none; box-shadow: inset 1px 1px 1px 0 rgba(42, 45, 48, 0.12);}
+select::-ms-expand {display: none;}
+select {padding-right: 2em;background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='10px' height='6.184px' viewBox='-45.5 48.5 10 6.184' enable-background='new -45.5 48.5 10 6.184' xml:space='preserve'%3E%3Cpath fill='%23333333' d='M-44.325,48.5l3.825,3.825l3.825-3.825l1.175,1.184l-5,5l-5-5L-44.325,48.5z'/%3E%3C/svg%3E%0A");background-repeat: no-repeat;background-position: right 10px center;}
+textarea {min-height: 200px;}
+/* input[type="text"], input[type="password"], select {padding: 0.433em 0.813em; border: 1px solid #d6d8e6; font-size: 0.938em; -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out;}
+input[type="text"]:focus, input[type="password"]:focus, select:focus {outline: none; box-shadow: inset 1px 1px 1px 0 rgba(42, 45, 48, 0.12);}
+select {padding-right: 1.65em;}
+select::-ms-expand {display: none;} */
+.select-m {position: relative; display: flex; background: #fff; overflow: hidden;}
+.select-m::after {content: '\F0140'; position: absolute; top: 1px; padding: 0.6em 0 0 0; right: 5px; cursor: pointer; pointer-events: none; font-family: 'Material Design Icons';}
+
+input[type="checkbox"], input[type="radio"] {-webkit-appearance: none; appearance: none; margin: 0; border: 0; background: none; border-radius: 0; outline: none;}
+input + *:not(p):not(.form_group), select + *:not(p):not(button):not(.form_group), label + input:not(.w-full), label + select, button + input:not(.w-full) {margin-left: 5px;}
+input + input.w-full {margin: 5px 0;}
+input.w-full + * {margin-left: 0 !important;}
+.search-wrap {width: 100%; display: -webkit-box; display: flex; -webkit-align-items: center; align-items: center; -webkit-flex-wrap: wrap; flex-wrap: wrap; margin: 1em 0; -webkit-flex-wrap: wrap; flex-wrap: wrap;-webkit-justify-content: left;justify-content: left;}
+.search-wrap + p {margin-bottom: 20px;}
+.search-wrap > * + * {margin-left: 10px;}
+
+
+.btn, .btn-2 {position: relative; display: inline-block; text-align: center; cursor: pointer; user-select: none; background-color: transparent; border: 1px solid transparent; padding: 0.433rem 0.5rem; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; outline: none; font-size: 0.875em; line-height: 1.5; z-index: 0; font-family: 'noto-sans-m';}
+.btn:before, .btn:after {content: ''; position: absolute; z-index: -1; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.btn:hover, .btn:focus {color: #fff;}
+.btn-dark {color: #fff; background-color: #3b4863; border-color: #3b4863;}
+.btn-dark:hover, .btn-dark:focus {background-color: #2d374b; border-color: #283143;}
+.btn-dark:focus {box-shadow: 0 0 0 3px rgba(88, 99, 122, 0.5);}
+.btn-outline-dark {color: #3b4863; border-color: #3b4863;}
+.btn-outline-dark:before, .btn-outline-dark:after, .btn-outline-dark:focus {background-color: #3b4863;}
+.btn-outline-dark:focus {box-shadow: 0 0 0 3px rgba(59, 72, 99, 0.5);}
+.btn_icon {border: 1px solid #d9d9d9; color: #6d6d6d; padding: 2px 8px 1px 8px;}
+
+.btn_icon i {font-size: 1.25em;}
+.btn_icon span {font-size: 0;}
+.btn_icon + * {margin-left: 5px;}
+
+i {display: inline-block; background-position: center; background-repeat: no-repeat; vertical-align: middle;}
+

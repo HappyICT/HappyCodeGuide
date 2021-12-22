@@ -1,0 +1,33 @@
+<configuration>
+
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %highlight(%-5level) %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <logger name="com.zaxxer.hikari.HikariDataSource" level="off"/>
+
+  <logger name="jdbc.connection" level="off"/>
+  <logger name="jdbc.audit" level="off"/>
+  <logger name="jdbc.resultset" level="off"/>
+  <logger name="jdbc.connection" level="off"/>
+  <logger name="jdbc.sqltiming" level="off"/>
+
+  <logger name="kr.co.happyict.happyLegacy" level="info"/>
+
+  <!-- 3rdparty Loggers -->
+  <logger name="org.springframework.core" level="info"/>
+
+  <logger name="org.springframework.beans" level="info"/>
+
+  <logger name="org.springframework.context" level="info"/>
+
+  <logger name="org.springframework.web" level="info"/>
+
+  <root level="info">
+    <appender-ref ref="console"/>
+  </root>
+</configuration>

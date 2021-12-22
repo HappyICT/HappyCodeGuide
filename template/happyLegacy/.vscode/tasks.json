@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "happyRun",
+      "type": "shell",
+      "command": "mvnDebug -f pom.xml tomcat7:run",
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": [
+        {
+          "pattern": [
+            {
+              "regexp": "\\b\\B",
+              "file": 1,
+              "location": 2,
+              "message": 3
+            }
+          ],
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^.*Listening for",
+            "endsPattern": "^.*transport dt_socket at address.*"
+          }
+        }
+      ]
+    },
+    {
+      "label": "happyStop",
+      "type": "shell",
+      "command": "echo ${input:terminate}}",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "terminate",
+      "type": "command",
+      "command": "workbench.action.tasks.terminate",
+      "args": "happyRun"
+    }
+  ]
+}
