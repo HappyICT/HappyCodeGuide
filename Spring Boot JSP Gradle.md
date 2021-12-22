@@ -1,8 +1,6 @@
 # Spring Boot + JSP + Apache Tiles + Gradle
 
----
-
-### 프로젝트 기본 구성
+## 0. 프로젝트 기본 구성
 
 - Adoptium: jdk-8.0.312.7-hotspot
 - Spring Boot Starter: 2.6.1
@@ -10,8 +8,6 @@
 - Tiles JSP Support: 3.0.8
 - Logback Project: 1.2.9
 - Log4Jdbc Log4j2 JDBC 4 1: 1.16
-
----
 
 ## 1. 프로젝트 생성
 
@@ -89,9 +85,7 @@
 
 ### 1.3 기존 템플레이트 재사용
 
-- [template > happyBootGradle]를 사용합니다. [3. 프로젝트 실행](#3-프로젝트-실행)으로 넘어갑니다.
-
----
+- [template > happyBootGradle]를 사용합니다. [3. 프로젝트 실행](#3--)으로 넘어갑니다.
 
 ## 2. 설정
 
@@ -260,8 +254,6 @@
 
   </details>
 
----
-
 ## 3. 프로젝트 실행
 
 - SPRING BOOT DASHBOARD에서 실행 버튼 클릭합니다.
@@ -297,8 +289,6 @@
 - 상단의 DASHBOARD로 조작이 가능합니다.
 
   ![](./images/Boot/5.png)
-
----
 
 ## 4. 웹 브라우저로 결과 확인
 

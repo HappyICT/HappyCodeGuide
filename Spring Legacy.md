@@ -1,8 +1,6 @@
 # Spring Legacy + JSP + Apache Tiles + Maven
 
----
-
-### 프로젝트 기본 구성
+## 0. 프로젝트 기본 구성
 
 - Adoptium: jdk-8.0.312.7-hotspot
 - Apache Tomcat Embedded: 7.0.109
@@ -16,13 +14,12 @@
 - Logback Project: 1.2.9
 - Log4Jdbc Log4j2 JDBC 4 1: 1.16
 
----
-
 ## 1. 프로젝트 생성
 
 ### 1.1 Maven을 이용한 프로젝트 생성
 
-- [Ctrl + Shift + P] > Maven: Create Maven Project > maven-archetype-webapp 로 기본 프로젝트 생성 후 java 폴더 및 spring 설정 파일 폴더를 추가로 생성합니다.
+- [Ctrl + Shift + P] > Maven: Create Maven Project > maven-archetype-webapp 로 기본 프로젝트 생성 후 java 폴더 및
+  spring 설정 파일 폴더를 추가로 생성합니다.
 
   <details><summary>보기</summary>
 
@@ -58,14 +55,18 @@
 
   ![](./images/Legacy/18.png)
 
+  - 아래의 폴더 추가
+  - [main > java]
+  - [main > resources]
+  - [main > webapp > WEB-INF > spring]
+  - [main > webapp > WEB-INF > views]
+
 </details>
 
 ### 1.2 기존 템플레이트 재사용
 
 - STS(Spring Tool Suite)에서 만든 프로젝트 혹은 기타 기존 템플레이트가 있다면 재사용이 가능합니다.
 - [template > happyLegacy]를 사용합니다.
-
----
 
 ## 2. 프로젝트 실행
 
@@ -195,17 +196,17 @@
 
 - target 폴더 아래에 생긴 war파일을 우클릭하여 Run on Tomcat Server 합니다.
 
-  - Tomcat 구동시 Root Path로 구동하기 위해 pom.xml의 build 항목에서 finalName을 ROOT로 설정하여 ROOT.war로 파일 생성되게 하였습니다.
+  - Tomcat 구동시 Root Path로 구동하기 위해 pom.xml의 build 항목에서 finalName을 ROOT로 설정하여 ROOT.war로 파일 생성되게
+    하였습니다.
 
   ![](./images/Legacy/3.png)
 
 #### 2.2.3 war 재배포 방법
 
-- 먼저 TOMCAT SERVERS 탭에서 Stop을 클릭하여 Tomcat을 종료 시킨 후 다시 Maven 에서 생성된 ROOT.war 파일을 우클릭하여 Run on Tomcat Server 합니다.
+- 먼저 TOMCAT SERVERS 탭에서 Stop을 클릭하여 Tomcat을 종료 시킨 후 다시 Maven 에서 생성된 ROOT.war 파일을 우클릭하여 Run on Tomcat
+  Server 합니다.
 
   ![](./images/Legacy/8.png)
-
----
 
 ## 3 웹 브라우저로 결과 확인
 

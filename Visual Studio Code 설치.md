@@ -1,14 +1,12 @@
 # Visual Studio Code 설치
 
----
-
 ## 1. Visual Studio Code 설치 및 확장팩 설치
 
 ### 1.1 Visual Studio Code 다운로드
 
 - https://code.visualstudio.com 에 접속하여 설치파일을 다운로드 합니다.
 
-- [VSCodeUserSetup-x64-1.63.0.exe](https://az764295.vo.msecnd.net/stable/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/VSCodeUserSetup-x64-1.63.0.exe) [작성일 기준 최신버전]
+- [VSCodeUserSetup-x64-1.63.2.exe](https://az764295.vo.msecnd.net/stable/899d46d82c4c95423fb7e10e68eba52050e30ba3/VSCodeUserSetup-x64-1.63.2.exe) [작성일 기준 최신버전]
 
   ![](./images/설치/설치.jpeg)
 
@@ -38,8 +36,6 @@
 
   ![](./images/설치/8.png)
 
----
-
 ## 2. 개발환경 별 확장팩 정리
 
 ### 2.1 공통
@@ -51,7 +47,8 @@
   - [Language Support for Java™ by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
 
     - Supports code from Java 1.5 to Java 17
-    - Latest <span style="color:red">Java 11</span> is the current <span style="color:yellow">minimum requirement</span>
+    - Latest <span style="color:red">Java 11</span> is the current <span style="color:yellow">
+      minimum requirement</span>
 
   - [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
   - [Test Runner for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
